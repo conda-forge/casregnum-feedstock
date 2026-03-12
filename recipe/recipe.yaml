@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: casregnum
-  version: 1.1.0
+  version: 1.1.1
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/casregnum-${{ version }}.tar.gz
-  sha256: bd49dd0843321d001ecda658613c368b6a7a553ea6b3078c89eff5d738936d61
+  sha256: f122f18f95b78c17a8de4864583b3eea1acc66585a692abe05e2d40846e06274
 
 build:
   number: 0
