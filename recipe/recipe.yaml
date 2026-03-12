@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/casregnum-${{ version }}.tar.gz
-  sha256: 7143ea6733560deff19b13b90f5fe6f81be5a729c7849a41b97519b97327cc95
+  sha256: bd49dd0843321d001ecda658613c368b6a7a553ea6b3078c89eff5d738936d61
 
 build:
   number: 0
